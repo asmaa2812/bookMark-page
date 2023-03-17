@@ -1,0 +1,21 @@
+.item
+{
+    font-family: 'Roboto', sans-serif;
+}
+.item h1,h6
+{
+    color: rgb(170,170,170);
+}
+.item .bg-color
+{
+    background-color: rgb(238,238,238);
+}
+.bg-color input::placeholder
+{
+    text-transform: capitalize;
+}
+.bg-color .btn:hover
+{
+    background-color:rgb(16, 88, 165) ;
+    box-shadow: 2px 4px 2px rgb(240, 186, 186);
+}

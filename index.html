@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMark</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Playfair+Display&family=Poppins:ital,wght@0,300;0,600;1,300&family=Roboto:wght@300;500&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="item container p-5">
+        <h1 class="text-capitalize mb-5 mx-4">bookmarker</h1>
+        <hr>
+        <div class="bg-color text-center py-5  mx-4 mb-3">
+            <p class="text-capitalize fs-4 fw-bold">bookmark your favorite sites</p>
+            <label for="nameInput" class="text-capitalize my-3">site name</label>
+            <input type="text" class="form-control w-75 mx-auto" id="nameInput" onblur="validateSite()" placeholder="bookmark name">
+            <label for="urlInput" class="my-3"> <span class="text-capitalize">site</span> <span class="text-uppercase">url</span> </label>
+            <input type="url" class="form-control w-75 mx-auto" id="urlInput" placeholder="website URL" >
+            <button class="btn btn-primary mt-4 text-capitalize" id="btnSubmit">submit</button>
+        </div>
+ <div id="box"> 
+     <input onkeyup="searchSite()" type="search" class="form-control my-3 w-75 mx-auto" id="searchInput" placeholder="search..."> 
+    </div> 
+        <table class=" table w-75 mx-auto "> 
+            <tbody id="tablebody"">
+            </tbody>
+        </table>
+        <hr>
+        <h6 class="mx-4 text-capitalize">&copy 2019 bookmarker inc.</h6>
+    </section>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
